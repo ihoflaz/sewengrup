@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projelerimiz - Seven Grup</title>
+    <meta name="description" content="Seven Grup'un Muş ve Bingöl illerinde gerçekleştirdiği toplu yemek projeleri. Valilik, belediye, üniversite ve diğer kurumlar için sunduğumuz hizmetler.">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../assets/images/logo_arma-1.png" type="image/x-icon">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Ana CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+    
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container container">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../assets/images/logo_arma-1.png" alt="Seven Grup Logo">
+                    <span class="logo-text">SEVEN GRUP</span>
+                </a>
+            </div>
+            
+            <nav>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="../index.html" class="nav-link">Ana Sayfa</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">Hakkımızda</a></li>
+                    <li class="nav-item"><a href="services.html" class="nav-link">Hizmetlerimiz</a></li>
+                    <li class="nav-item"><a href="projects.html" class="nav-link active">Projelerimiz</a></li>
+                    <li class="nav-item"><a href="references.html" class="nav-link">Referanslarımız</a></li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">İletişim</a></li>
+                </ul>
+            </nav>
+            
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Sayfa Başlığı -->
+    <section class="page-header" style="background-image: url('../assets/images/IMG-20250521-WA0021.jpg'); background-size: cover; background-position: center; height: 300px; position: relative; display: flex; align-items: center; justify-content: center; margin-top: var(--header-height);">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(11, 37, 69, 0.7);"></div>
+        <div style="position: relative; z-index: 1; text-align: center; color: white;">
+            <h1 style="font-size: 3rem; margin-bottom: 10px;">Projelerimiz</h1>
+            <p style="font-size: 1.2rem;">Muş ve Bingöl'deki Başarılı Projelerimiz</p>
+        </div>
+    </section>
+    
+    <!-- Projeler Tanıtım -->
+    <section class="projects-intro section">
+        <div class="container">
+            <div style="text-align: center; max-width: 800px; margin: 0 auto 60px;">
+                <h2 style="font-size: 2.5rem; margin-bottom: 20px; color: var(--primary-color);">Gerçekleştirdiğimiz Projeler</h2>
+                <p>Seven Grup olarak, Muş ve Bingöl illerinde çeşitli kamu kurumları, eğitim kurumları ve özel şirketler için toplu yemek hizmetleri sunmaktayız. Aşağıda başarıyla tamamladığımız ve devam eden projelerimizden bazılarını görebilirsiniz.</p>
+            </div>
+            
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">Tümü</button>
+                <button class="filter-btn" data-filter="mus">Muş</button>
+                <button class="filter-btn" data-filter="bingol">Bingöl</button>
+                <button class="filter-btn" data-filter="other">Diğer</button>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-item mus scroll-element">
+                    <div class="project-image">
+                        <img src="../assets/images/IMG-20250521-WA0021.jpg" alt="Muş Valiliği Yemekhane Projesi">
+                    </div>
+                    <div class="project-overlay">
+                        <h3 class="project-title">Muş Valiliği</h3>
+                        <p class="project-category">Yemekhane Hizmeti</p>
+                    </div>
+                </div>
+                
+                <div class="project-item bingol scroll-element delay-1">
+                    <div class="project-image">
+                        <img src="../assets/images/IMG-20250521-WA0018.jpg" alt="Bingöl Belediyesi Yemekhane Projesi">
+                    </div>
+                    <div class="project-overlay">
+                        <h3 class="project-title">Bingöl Belediyesi</h3>
+                        <p class="project-category">Yemekhane Hizmeti</p>
+                    </div>
+                </div>
+                
+                <div class="project-item mus scroll-element delay-2">
+                    <div class="project-image">
+                        <img src="../assets/images/IMG-20250521-WA0023.jpg" alt="Muş Üniversitesi Yemekhane Projesi">
+                    </div>
+                    <div class="project-overlay">
+                        <h3 class="project-title">Muş Üniversitesi</h3>
+                        <p class="project-category">Öğrenci Yemekhane Hizmeti</p>
+                    </div>
+                </div>
+                
+                <div class="project-item bingol scroll-element">
+                    <div class="project-image">
+                        <img src="../assets/images/IMG-20250521-WA0022.jpg" alt="Bingöl Hastanesi Yemekhane Projesi">
+                    </div>
+                    <div class="project-overlay">
+                        <h3 class="project-title">Bingöl Hastanesi</h3>
+                        <p class="project-category">Personel ve Hasta Yemek Hizmeti</p>
+                    </div>
+                </div>
+                
+                <div class="project-item mus scroll-element delay-1">
+                    <div class="project-image">
+                        <img src="../assets/images/IMG-20250521-WA0021.jpg" alt="Muş Öğretmenevi Yemekhane Projesi">
+                    </div>
+                    <div class="project-overlay">
+                        <h3 class="project-title">Muş Öğretmenevi</h3>
+                        <p class="project-category">Yemekhane Hizmeti</p>
+                    </div>
+                </div>
+                
+                <div class="project-item other scroll-element delay-2">
+                    <div class="project-image">
+                        <img src="../assets/images/IMG-20250521-WA0018.jpg" alt="Özel Etkinlik Catering Projesi">
+                    </div>
+                    <div class="project-overlay">
+                        <h3 class="project-title">Bölgesel Konferans</h3>
+                        <p class="project-category">Özel Etkinlik Catering</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Proje Detayları -->
+    <section class="project-details section" style="background-color: var(--light-gray);">
+        <div class="container">
+            <h2 class="section-title">Öne Çıkan Projelerimiz</h2>
+            
+            <div style="display: flex; flex-wrap: wrap; gap: 50px; margin-bottom: 50px; align-items: center;" class="scroll-element">
+                <div style="flex: 1 1 500px;">
+                    <img src="../assets/images/IMG-20250521-WA0021.jpg" alt="Muş Valiliği Projesi" style="width: 100%; border-radius: 10px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);">
+                </div>
+                <div style="flex: 1 1 500px;">
+                    <h3 style="font-size: 2rem; margin-bottom: 20px; color: var(--primary-color);">Muş Valiliği Yemekhane Projesi</h3>
+                    <p style="margin-bottom: 20px;">Muş Valiliği personeli için sunduğumuz yemekhane hizmetimiz, günlük 300 kişilik kapasiteyle hizmet vermektedir. Proje kapsamında, valilik personeline öğle yemeği hizmeti sunulmaktadır.</p>
+                    <ul style="margin-bottom: 20px; padding-left: 20px;">
+                        <li style="margin-bottom: 10px;"><strong>Başlangıç Tarihi:</strong> Ocak 2023</li>
+                        <li style="margin-bottom: 10px;"><strong>Kapasite:</strong> Günlük 300 kişi</li>
+                        <li style="margin-bottom: 10px;"><strong>Hizmet Türü:</strong> Öğle yemeği</li>
+                        <li style="margin-bottom: 10px;"><strong>Özel Menü:</strong> Yöresel lezzetler ve diyet menüler</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div style="display: flex; flex-wrap: wrap; gap: 50px; margin-bottom: 50px; align-items: center;" class="scroll-element">
+                <div style="flex: 1 1 500px; order: 2;">
+                    <img src="../assets/images/IMG-20250521-WA0018.jpg" alt="Bingöl Belediyesi Projesi" style="width: 100%; border-radius: 10px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);">
+                </div>
+                <div style="flex: 1 1 500px; order: 1;">
+                    <h3 style="font-size: 2rem; margin-bottom: 20px; color: var(--primary-color);">Bingöl Belediyesi Yemekhane Projesi</h3>
+                    <p style="margin-bottom: 20px;">Bingöl Belediyesi personeli için sunduğumuz yemekhane hizmetimiz, günlük 250 kişilik kapasiteyle hizmet vermektedir. Proje kapsamında, belediye personeline öğle yemeği hizmeti sunulmaktadır.</p>
+                    <ul style="margin-bottom: 20px; padding-left: 20px;">
+                        <li style="margin-bottom: 10px;"><strong>Başlangıç Tarihi:</strong> Mart 2023</li>
+                        <li style="margin-bottom: 10px;"><strong>Kapasite:</strong> Günlük 250 kişi</li>
+                        <li style="margin-bottom: 10px;"><strong>Hizmet Türü:</strong> Öğle yemeği</li>
+                        <li style="margin-bottom: 10px;"><strong>Özel Menü:</strong> Mevsimsel ve yerel ürünlerle hazırlanan menüler</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div style="display: flex; flex-wrap: wrap; gap: 50px; align-items: center;" class="scroll-element">
+                <div style="flex: 1 1 500px;">
+                    <img src="../assets/images/IMG-20250521-WA0023.jpg" alt="Muş Üniversitesi Projesi" style="width: 100%; border-radius: 10px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);">
+                </div>
+                <div style="flex: 1 1 500px;">
+                    <h3 style="font-size: 2rem; margin-bottom: 20px; color: var(--primary-color);">Muş Üniversitesi Öğrenci Yemekhane Projesi</h3>
+                    <p style="margin-bottom: 20px;">Muş Üniversitesi öğrencileri ve personeli için sunduğumuz yemekhane hizmetimiz, günlük 2000 kişilik kapasiteyle hizmet vermektedir. Proje kapsamında, öğrencilere ve personele öğle ve akşam yemeği hizmeti sunulmaktadır.</p>
+                    <ul style="margin-bottom: 20px; padding-left: 20px;">
+                        <li style="margin-bottom: 10px;"><strong>Başlangıç Tarihi:</strong> Eylül 2023</li>
+                        <li style="margin-bottom: 10px;"><strong>Kapasite:</strong> Günlük 2000 kişi</li>
+                        <li style="margin-bottom: 10px;"><strong>Hizmet Türü:</strong> Öğle ve akşam yemeği</li>
+                        <li style="margin-bottom: 10px;"><strong>Özel Menü:</strong> Vejetaryen, vegan ve diyet menüler</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Bölgesel Projeler -->
+    <section class="regional-projects section">
+        <div class="container">
+            <h2 class="section-title">Bölgesel Projelerimiz</h2>
+            
+            <div style="display: flex; flex-wrap: wrap; gap: 30px; margin-bottom: 50px;">
+                <div style="flex: 1 1 500px; background-color: var(--white); padding: 30px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);" class="scroll-element">
+                    <h3 style="font-size: 1.8rem; margin-bottom: 20px; color: var(--primary-color); text-align: center;">Muş İlindeki Projelerimiz</h3>
+                    <ul style="padding-left: 20px;">
+                        <li style="margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid var(--light-gray);">
+                            <h4 style="font-size: 1.3rem; margin-bottom: 10px; color: var(--primary-color);">Muş Valiliği</h4>
+                            <p>Günlük 300 kişilik yemekhane hizmeti</p>
+                        </li>
+                        <li style="margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid var(--light-gray);">
+                            <h4 style="font-size: 1.3rem; margin-bottom: 10px; color: var(--primary-color);">Muş Üniversitesi</h4>
+                            <p>Günlük 2000 kişilik öğrenci ve personel yemekhane hizmeti</p>
+                        </li>
+                        <li style="margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid var(--light-gray);">
+                            <h4 style="font-size: 1.3rem; margin-bottom: 10px; color: var(--primary-color);">Muş Öğretmenevi</h4>
+                            <p>Günlük 150 kişilik yemekhane hizmeti</p>
+                        </li>
+                        <li style="margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid var(--light-gray);">
+                            <h4 style="font-size: 1.3rem; margin-bottom: 10px; color: var(--primary-color);">Muş Devlet Hastanesi</h4>
+                            <p>Günlük 500 kişilik personel ve hasta yemek hizmeti</p>
+                        </li>
+                        <li>
+                            <h4 style="font-size: 1.3rem; margin-bottom: 10px; color: var(--primary-color);">Muş Kız Öğrenci Yurdu</h4>
+                            <p>Günlük 300 kişilik yemekhane hizmeti</p>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div style="flex: 1 1 500px; background-color: var(--white); padding: 30px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);" class="scroll-element delay-1">
+                    <h3 style="font-size: 1.8rem; margin-bottom: 20px; color: var(--primary-color); text-align: center;">Bingöl İlindeki Projelerimiz</h3>
+                    <ul style="padding-left: 20px;">
+                        <li style="margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid var(--light-gray);">
+                            <h4 style="font-size: 1.3rem; margin-bottom: 10px; color: var(--primary-color);">Bingöl Belediyesi</h4>
+                            <p>Günlük 250 kişilik yemekhane hizmeti</p>
+                        </li>
+                        <li style="margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid var(--light-gray);">
+                            <h4 style="font-size: 1.3rem; margin-bottom: 10px; color: var(--primary-color);">Bingöl Hastanesi</h4>
+                            <p>Günlük 400 kişilik personel ve hasta yemek hizmeti</p>
+                        </li>
+                        <li style="margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid var(--light-gray);">
+                            <h4 style="font-size: 1.3rem; margin-bottom: 10px; color: var(--primary-color);">Bingöl Üniversitesi</h4>
+                            <p>Günlük 1500 kişilik öğrenci ve personel yemekhane hizmeti</p>
+                        </li>
+                        <li style="margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid var(--light-gray);">
+                            <h4 style="font-size: 1.3rem; margin-bottom: 10px; color: var(--primary-color);">Bingöl Erkek Öğrenci Yurdu</h4>
+                            <p>Günlük 250 kişilik yemekhane hizmeti</p>
+                        </li>
+                        <li>
+                            <h4 style="font-size: 1.3rem; margin-bottom: 10px; color: var(--primary-color);">Bingöl İl Milli Eğitim Müdürlüğü</h4>
+                            <p>Günlük 200 kişilik yemekhane hizmeti</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- İstatistikler -->
+    <section class="stats section" style="background-color: var(--primary-color); color: var(--white);">
+        <div class="container">
+            <h2 class="section-title" style="color: var(--white);">Rakamlarla Seven Grup</h2>
+            <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; text-align: center;">
+                <div style="flex: 1 1 200px; max-width: 250px;" class="scroll-element">
+                    <div style="font-size: 3rem; font-weight: 700; color: var(--secondary-color); margin-bottom: 10px;" class="stat-number" data-target="15">0</div>
+                    <p style="font-size: 1.2rem;">Yıllık Tecrübe</p>
+                </div>
+                
+                <div style="flex: 1 1 200px; max-width: 250px;" class="scroll-element delay-1">
+                    <div style="font-size: 3rem; font-weight: 700; color: var(--secondary-color); margin-bottom: 10px;" class="stat-number" data-target="20">0</div>
+                    <p style="font-size: 1.2rem;">Aktif Proje</p>
+                </div>
+                
+                <div style="flex: 1 1 200px; max-width: 250px;" class="scroll-element delay-2">
+                    <div style="font-size: 3rem; font-weight: 700; color: var(--secondary-color); margin-bottom: 10px;" class="stat-number" data-target="10000">0</div>
+                    <p style="font-size: 1.2rem;">Günlük Porsiyon</p>
+                </div>
+                
+                <div style="flex: 1 1 200px; max-width: 250px;" class="scroll-element delay-3">
+                    <div style="font-size: 3rem; font-weight: 700; color: var(--secondary-color); margin-bottom: 10px;" class="stat-number" data-target="100">0</div>
+                    <p style="font-size: 1.2rem;">Çalışan Sayısı</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- İletişim CTA -->
+    <section class="contact-cta section" style="background-image: url('../assets/images/IMG-20250521-WA0023.jpg'); background-size: cover; background-position: center; position: relative; color: var(--white); text-align: center;">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(11, 37, 69, 0.8);"></div>
+        <div class="container" style="position: relative; z-index: 1;">
+            <h2 style="font-size: 2.5rem; margin-bottom: 20px;">Projeniz İçin Bizimle İletişime Geçin</h2>
+            <p style="font-size: 1.2rem; margin-bottom: 30px; max-width: 800px; margin-left: auto; margin-right: auto;">Kurumunuz için profesyonel toplu yemek hizmetleri almak ister misiniz? Hemen bizimle iletişime geçin, ihtiyaçlarınıza özel çözümler sunalım.</p>
+            <a href="contact.html" class="btn" style="font-size: 1.1rem; padding: 15px 40px;">İletişime Geçin</a>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <img src="../assets/images/logo_arma-1.png" alt="Seven Grup Logo">
+                        <span class="footer-logo-text">SEVEN GRUP</span>
+                    </div>
+                    <p class="footer-text">Seven Grup, kamu kurumları, özel şirketler ve eğitim kurumları için profesyonel toplu yemek hizmetleri sunmaktadır.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 class="footer-title">Hızlı Erişim</h3>
+                    <ul class="footer-menu">
+                        <li><a href="../index.html">Ana Sayfa</a></li>
+                        <li><a href="about.html">Hakkımızda</a></li>
+                        <li><a href="services.html">Hizmetlerimiz</a></li>
+                        <li><a href="projects.html">Projelerimiz</a></li>
+                        <li><a href="references.html">Referanslarımız</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">İletişim</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 class="footer-title">Hizmetlerimiz</h3>
+                    <ul class="footer-menu">
+                        <li><a href="services.html">Toplu Yemek Hizmetleri</a></li>
+                        <li><a href="services.html">Kurumsal Yemek Çözümleri</a></li>
+                        <li><a href="services.html">Özel Etkinlik Catering</a></li>
+                        <li><a href="services.html">Kalite ve Hijyen Standartları</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 class="footer-title">İletişim Bilgileri</h3>
+                    <div class="footer-contact-item">
+                        <div class="footer-contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <p>Kültür Mahallesi, Cumhuriyet Caddesi No:123, 49100 Muş</p>
+                    </div>
+                    <div class="footer-contact-item">
+                        <div class="footer-contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <p>+90 (436) 123 45 67</p>
+                    </div>
+                    <div class="footer-contact-item">
+                        <div class="footer-contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <p>info@sevengrup.com</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Seven Grup. Tüm Hakları Saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Yukarı Çık Butonu -->
+    <div class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+    
+    <!-- JavaScript -->
+    <script src="../js/main.js"></script>
+</body>
+</html>
